@@ -1,4 +1,4 @@
 language: python
 install:
   - pip install tox
-script: tox
+script: python setup.py test
